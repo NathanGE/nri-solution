@@ -1,14 +1,14 @@
 # Program for prompting users to request questions and return
 # question ID's.
-# puts "How many questions would you like?"
-# num_questions = gets.chomp
+puts "How many questions would you like?"
+num_questions = gets.chomp
 
-# if num_questions.to_i <= 0
-#   puts "Invalid. Please enter a whole number greater than 0"
-#   num_questions = gets.chomp
-# end
+if num_questions.to_i <= 0
+  puts "Invalid. Please enter a whole number greater than 0"
+  num_questions = gets.chomp
+end
 
-# num_questions.to_i
+num_questions.to_i
 
 # Since numerical id's are keys, 
 # create a multidimensional array rather than a hash
