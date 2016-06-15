@@ -22,3 +22,12 @@ standard6 = [12]
 
 strand1 = [standard1, standard2, standard3]
 strand2 = [standard4, standard5, standard6]
+
+def give_questions(num)
+  if num % 2 === 0
+    # capture half the questions from questions 1 - 6
+    # half from 7 - 12
+  else
+    # subtract one from the num and take half from questions 1 - 6
+    # half of the subtracted num plus one from questions 7 - 12
+end
